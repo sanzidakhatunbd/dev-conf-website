@@ -122,3 +122,47 @@ nav{
     line-height: 64.4px;
     margin-bottom: 56px;
 }
+/* meet section end */
+
+
+/* pricing section */
+.pricing-heading{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.pricing-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.price-card{
+    width: 30%;
+    padding: 32px;
+    border: 1px solid #E5E7EB;
+    border-radius: 10px;
+}
+.price-card ul{
+    padding-left: 15px;
+}
+.price-card hr{
+    border: 1px solid #E5E7EB;
+    margin: 15px 0;
+}
+.plan{
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 19.5px;
+    letter-spacing: 0.32px;
+    text-transform: uppercase;
+}
+.price{
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 44px;
+    margin: 6px 0;
+}
+.billing{
+    font-weight: 400;
+    text-transform: none;
+}
