@@ -82,6 +82,14 @@ nav{
 /* banner end */
 
 /* meet the speakers section */
+.meet-speaker{
+    padding: 80px 60px;
+}
+.main-speakers{
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
 .speakers{
     width: fit-content;
     border: 1px solid #E5E7EB;
@@ -102,11 +110,15 @@ nav{
     font-size: 20px;
     font-weight: 700;
     line-height: 27.5px;
-    letter-spacing: 0px;
 }
 .speakers-job-title{
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
-    letter-spacing: 0px;
+}
+.meet-speaker h2{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64.4px;
+    margin-bottom: 56px;
 }
