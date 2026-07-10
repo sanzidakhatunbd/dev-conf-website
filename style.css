@@ -2,4 +2,68 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Inter;
+}
+/* for font-family */
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+/* color section */
+.bg-primary{ background-color: #1D4ED8;}
+.bg-secondary{ background-color: #0D1B2A;}
+.bg-accent{ background-color: #E5E7EB;}
+.bg-white{ background-color: #FFFFFF;}
+.primary{ color: #2563EB;}
+.secondary{ color: #0D1B2A;}
+.white{ color: #FFFFFF;}
+.gray{ color: #888888;}
+.text-color{ color: #575757;}
+.black{ color: #000102;}
+.border-gray{ border-color: #333333;}
+
+/* nav section start*/
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+.nav-menu{
+    display: flex;
+    gap: 15px;
+}
+.nav-menu li{
+    list-style: none;
+}
+.nav-menu li a{
+    text-decoration: none;
+}
+.btn{
+    padding: 10px 33px;
+    border: 1px solid #1D4ED8;
+    border-radius: 5px;
+}
+/* nav section close */
+
+
+/* banner section start */
+
+.hero-banner{
+    background-image: url(./images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 75vh; display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner{
+    /* margin: 0 auto; */
+   
+}
+.banner h1 span{
+    font-style: italic;
 }
