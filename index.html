@@ -14,12 +14,12 @@
 
 <body>
     <!-- navigation bar -->
-    <nav>
+    <nav class="flex">
         <div class="left-navbar-side">
             <img src="./images/logo.png" width="90px" alt="This Is a Logo for Devconf 2026" class="nav-logo">
         </div>
         <div class="middle-navbar-side">
-            <ul class="nav-menu">
+            <ul class="nav-menu flex">
                 <li><a class="text-color" href="#">Speakers</a></li>
                 <li><a class="text-color" href="#">Schedule</a></li>
                 <li><a class="text-color" href="#">Tracks</a></li>
@@ -36,13 +36,41 @@
 
     <!-- hero banner started -->
     <section class="banner">
-        <div class="hero-banner">
+        <div class="hero-banner flex-column">
             <h1 class="hero-heading white">Code. <span>Connect</span>. Create</h1>
             <p class="hero-text white">Join 4,000+ engineers, founders, and builders at the premier developer <br> conference of
                 2026. Three days of cutting-edge talks, hands-on workshops, <br> and meaningful connections.</p>
             <button class="btn bg-primary white">Register Now</button>
         </div>
     </section>
+    <!-- hero banner close -->
+
+    <!-- meet the speakers section strated -->
+     <section class="meet-speaker flex-column">
+        <h2 class="speaker-heading">Meet the Speakers</h2>
+        <div class="main-speakers flex">
+            <div class="speakers">
+                <div class="speakers-photo">
+                    <img src="./images/mustafa.png" alt="Security Mustafa Suleyman's image">
+                </div>
+                <div class="speakers-details">
+                    <p class="speakers-designation primary">Security</p>
+                    <h3 class="speakers-name secondary">Mustafa Suleyman</h3>
+                    <p class="speakers-job-title text-color">CEO of Microsoft AI</p>
+                </div>
+            </div>
+            <div class="speakers">
+                <div class="speakers-photo">
+                    <img src="./images/mustafa.png" alt="Security Mustafa Suleyman's image">
+                </div>
+                <div class="speakers-details">
+                    <p class="speakers-designation primary">Security</p>
+                    <h3 class="speakers-name secondary">Mustafa Suleyman</h3>
+                    <p class="speakers-job-title text-color">CEO of Microsoft AI</p>
+                </div>
+            </div>
+        </div>
+     </section>
 </body>
 
 </html>
