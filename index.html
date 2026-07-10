@@ -95,28 +95,58 @@
 
 
      <!-- pricing section started -->
-     <section class="pricing">
+     <section class="pricing flex-column">
         <p class="pricing-heading">Secure Your Spot</p>
-        <p class="pricing-text">Early-bird pricing ends August 15, 2026.</p>
-        <div class="pricing-cards">
+        <p class="pricing-text text-color">Early-bird pricing ends August 15, 2026.</p>
+        <div class="pricing-cards flex">
             <div class="price-card">
                 <p class="plan gray">Standard</p>
                 <p class="price secondary">$399</p>
                 <p class="billing plan gray">Per Person</p>
                 <hr>
-                <ul>
-                    <li>Access to all 3 conference days</li>
-                    <li>48 curated technical talks</li>
-                    <li>2 workshop sessions</li>
-                    <li>Networking lunch & coffee breaks</li>
-                    <li>Conference swag bag</li>
-                    <li>Digital recordings (30 days)</li>
-                    <li>bjsdfhskldbn</li>
+                <ul class="flex-column">
+                    <li class="price-list accent">Access to all 3 conference days</li>
+                    <li class="price-list accent">48 curated technical talks</li>
+                    <li class="price-list accent">2 workshop sessions</li>
+                    <li class="price-list accent">Networking lunch & coffee breaks</li>
+                    <li class="price-list accent">Conference swag bag</li>
+                    <li class="price-list accent">Digital recordings (30 days)</li>
                 </ul>
-                <button class="price-btn">Get Standard</button>
+                <button class="price-btn bg-white primary btn">Get Standard</button>
+            </div>
+            <div class="price-card pro-pricing bg-secondary">
+                <p class="plan primary-2">Pro</p>
+                <p class="price white">$749</p>
+                <p class="billing plan gray">Per Person</p>
+                <hr id="pro-pricing-hr">
+                <ul class="flex-column">
+                    <li class="price-list white">Everything in Standard</li>
+                    <li class="price-list white">Unlimited workshop access</li>
+                    <li class="price-list white">Speaker meet & greet</li>
+                    <li class="price-list white">VIP networking dinner</li>
+                    <li class="price-list white">Lifetime recording access</li>
+                    <li class="price-list white">1-on-1 mentorship (30 min)</li>
+                </ul>
+                <button class="price-btn bg-primary white  btn">Get Pro</button>
+            </div>
+            <div class="price-card">
+                <p class="plan gray">Team</p>
+                <p class="price secondary">$5,999</p>
+                <p class="billing plan gray">up to 10 people</p>
+                <hr>
+                <ul class="flex-column">
+                    <li class="price-list accent">Everything in Pro (10 seats)</li>
+                    <li class="price-list accent">Dedicated team lounge access</li>
+                    <li class="price-list accent">Private workshop booking</li>
+                    <li class="price-list accent">Company logo on event page</li>
+                    <li class="price-list accent">Recruitment booth (1 day)</li>
+                    <li class="price-list accent">Priority customer support</li>
+                </ul>
+                <button class="price-btn bg-white black btn" id="border-secondary">Contact Us</button>
             </div>
         </div>
      </section>
+     <!-- pricing section close -->
 
 
 </body>

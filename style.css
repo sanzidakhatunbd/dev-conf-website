@@ -18,12 +18,13 @@
 .bg-accent{ background-color: #E5E7EB;}
 .bg-white{ background-color: #FFFFFF;}
 .primary{ color: #2563EB;}
+.primary-2{ color: #93C5FD;}
 .secondary{ color: #0D1B2A;}
 .white{ color: #FFFFFF;}
 .gray{ color: #888888;}
 .text-color{ color: #575757;}
 .black{ color: #000102;}
-.border-gray{ border-color: #333333;}
+.accent{ color: #333333;}
 
 /* nav section start*/
 nav{
@@ -55,14 +56,14 @@ nav{
     background-position: center;
     background-size: cover;
     height: 75vh;
+    align-items: center; 
 }
 .flex{
     display: flex;
 }
 .flex-column{
     display: flex;
-    flex-direction: column;
-    align-items: center; 
+    flex-direction: column; 
 }
 
 .hero-banner h1{
@@ -83,6 +84,7 @@ nav{
 
 /* meet the speakers section */
 .meet-speaker{
+    align-items: center; 
     padding: 80px 60px;
 }
 .main-speakers{
@@ -111,7 +113,7 @@ nav{
     font-weight: 700;
     line-height: 27.5px;
 }
-.speakers-job-title{
+.speakers-job-title, .price-list{
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
@@ -126,6 +128,10 @@ nav{
 
 
 /* pricing section */
+.pricing{
+    padding: 0 60px;
+    align-items: center; 
+}
 .pricing-heading{
     font-size: 48px;
     font-weight: 700;
@@ -136,14 +142,22 @@ nav{
     font-weight: 400;
     line-height: 24px;
 }
+.pricing-cards{
+    gap: 25px;
+    margin: 30px 0;
+}
 .price-card{
-    width: 30%;
+    width: 350px;
     padding: 32px;
     border: 1px solid #E5E7EB;
     border-radius: 10px;
 }
 .price-card ul{
     padding-left: 15px;
+    gap: 15px;
+}
+.price-card ul li::marker{
+    color: #2563EB;
 }
 .price-card hr{
     border: 1px solid #E5E7EB;
@@ -166,3 +180,23 @@ nav{
     font-weight: 400;
     text-transform: none;
 }
+.price-btn{
+    width: 100%;
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+}
+#border-secondary{ 
+    border-color: #000102;
+}
+#pro-pricing-hr{
+    border: 1px solid #ffffff1a;
+}
+.pro-pricing ul li{
+    opacity: 0.8;
+}
+.pro-pricing ul li::marker{
+    color: #93C5FD;
+}
+/* pricing section end */
