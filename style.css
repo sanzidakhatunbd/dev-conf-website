@@ -33,18 +33,29 @@ nav{
     padding: 15px;
 }
 .nav-menu{
-    gap: 15px;
+    gap: 20px;
 }
 .nav-menu li{
     list-style: none;
 }
 .nav-menu li a{
     text-decoration: none;
+    transition: all 0.3s;
+}
+.nav-menu li a:hover{
+    color: #000102;
 }
 .btn{
     padding: 10px 33px;
     border: 1px solid #1D4ED8;
     border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    transition: all 0.3s;
+}
+.btn:hover{
+    transform: scale(0.95);
 }
 /* nav section close */
 
@@ -52,10 +63,9 @@ nav{
 /* banner section start */
 
 .hero-banner{
-    background-image: url(./images/banner.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 75vh;
+    background: linear-gradient(#000102b7, #0d1b2aa2),
+  url("./images/banner.jpg");
+    height: 85vh;
     align-items: center; 
 }
 .flex{
@@ -69,7 +79,7 @@ nav{
 .hero-banner h1{
     font-size: 80px;
     font-weight: 700;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 .hero-banner p{
     font-size: 22px;
@@ -97,6 +107,15 @@ nav{
     border: 1px solid #E5E7EB;
     border-radius: 10px;
     overflow: hidden;
+}
+.speakers-photo{
+    overflow: hidden;
+}
+.speakers-photo img{
+    transition: all 0.3s;
+}
+.speakers-photo img:hover{
+    transform: scale(1.05);
 }
 .speakers-details{
     padding: 30px;
@@ -151,6 +170,10 @@ nav{
     padding: 32px;
     border: 1px solid #E5E7EB;
     border-radius: 10px;
+    transition: all 0.3s;
+}
+.price-card:hover{
+    transform: translateY(-4px);
 }
 .price-card ul{
     padding-left: 15px;
@@ -213,6 +236,12 @@ footer{
 .footer-right{
     gap: 10px;
 }
+.footer-right img{
+    transition: all 0.3s;
+}
+.footer-right img:hover{
+    transform: translateY(3px);
+}
 footer hr{
     border: 1px solid #93c4fd94;
     margin: 20px 0;
@@ -228,4 +257,9 @@ footer hr{
 }
 .footer-policy a{
     text-decoration: none;
+    transition: all 0.3s;
 }
+.footer-policy a:hover{
+    color: #ffffff;
+}
+/* footer end */
