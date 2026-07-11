@@ -618,7 +618,7 @@ p.playground-sub {
 
 /* footer start */
 footer {
-    padding: 60px;
+    padding: 60px 60px 30px 60px;
 }
 
 .footer-part {
@@ -628,6 +628,7 @@ footer {
 
 .footer-right {
     gap: 10px;
+    align-items: center;
 }
 
 .footer-right img {
@@ -639,7 +640,7 @@ footer {
 }
 
 footer hr {
-    width: 85%;
+    width: 65%;
     border: 1px solid #93c4fd94;
     margin: 25px auto;
 }
@@ -650,8 +651,12 @@ footer hr {
     line-height: 19.5px;
 }
 
+.footer-policy-text {
+    font-size: 12px;
+}
+
 .footer-policy {
-    gap: 15px;
+    gap: 10px;
 }
 
 .footer-policy a {
@@ -661,6 +666,11 @@ footer hr {
 
 .footer-policy a:hover {
     color: #ffffff;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
 }
 
 /* footer end */
