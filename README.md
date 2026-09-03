@@ -2,6 +2,10 @@
 
 A modern and responsive developer conference website designed for DevConf 2026.
 
+## Live Demo
+
+🔗 [https://sanzidakhatunbd.github.io/dev-conf-website/](https://sanzidakhatunbd.github.io/dev-conf-website/)
+
 ## Preview
 
 ![DevConf 2026 Website Preview](./images/screenshot.png)
@@ -38,6 +42,19 @@ This project was built using pure HTML5 and CSS3.
 ## How to Run Locally
 
 1. Clone the repository:
-
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_LINK
+git clone https://github.com/sanzidakhatunbd/dev-conf-website.git
+```
+
+2. Navigate into the project folder:
+```bash
+cd dev-conf-website
+```
+
+3. Open `index.html` in your browser:
+   - Just double-click the `index.html` file, or
+   - Use a tool like the **Live Server** extension in VS Code for the best experience.
+
+## Repository
+
+🔗 [https://github.com/sanzidakhatunbd/dev-conf-website](https://github.com/sanzidakhatunbd/dev-conf-website)
