@@ -4,7 +4,7 @@ A modern and responsive developer conference website designed for DevConf 2026.
 
 ## Preview
 
-![DevConf 2026 Website Preview](./screenshot.png)
+![DevConf 2026 Website Preview](./images/screenshot.png)
 
 ## About The Project
 
